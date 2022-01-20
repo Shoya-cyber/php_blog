@@ -22,7 +22,7 @@ services:
     environment:
       - "MYSQL_ROOT_PASSWORD=${DB_ROOT_PASSWORD}"
     ports:
-      - "${IP}:${PORT_DB}:3306"
+      - "${IP}:${PORT_DB}:3307"
   phpmyadmin:
     container_name: "${NAME_PREFIX}-phpmyadmin"
     hostname: "${NAME_PREFIX}-phpmyadmin"

@@ -1,3 +1,3 @@
 -- DB生成「cbc_laravel」
-CREATE DATABASE ` php_blog`;
+CREATE DATABASE `php_blog`;
 
